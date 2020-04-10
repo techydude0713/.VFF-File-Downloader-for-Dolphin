@@ -704,7 +704,7 @@ goto 2_show_languages
 :2_forecast_save_config
 ::Save config
 >"%config%\forecast_region.txt" echo %region%
->"%config%\forecast_language.txt" echo language_%language%
+>"%config%\forecast_language.txt" echo %language%
 
 goto 3_news
 :3_news
